@@ -1,0 +1,80 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App {
+  margin: 0;
+  height: 90%;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.List {
+  width: 350px;
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  display: flex;
+  width: 180px;
+  height: 40px;
+  padding: 10px;
+  border: 1px solid black;
+  cursor: pointer;
+  
+}
+
+.item:hover {
+  background-color: gray;
+  color: white;
+
+}
+
+.item-active {
+  display: flex;
+  width: 180px;
+  height: 40px;
+  padding: 10px;
+  border: 1px solid black;
+  cursor: pointer;
+  background-color: rgb(68, 99, 177);
+  color: white;
+}
+
+.Details {
+  width: 500px;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+}
+
+.avatar {
+  width: 250px;
+  height: 300px;
+  background-size: cover;
+}
+
+.detail-title {
+  width: 250px;
+  height: 38px;
+  border: 1px solid grey;
+  padding: 10px;
+  margin: 0;
+  font-size: 18px;
+}
+
+.detail-info{
+  width: 250px;
+  height: 38px;
+  border: 1px solid grey;
+  padding: 10px;
+  margin: 0;
+}
